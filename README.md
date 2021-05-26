@@ -25,6 +25,7 @@ If you make use of OVANA in any form, please cite the following Paper.
 
 ## Contributors
 
+- Philipp Kühn
 - Markus Bayer
 - Marc Wendelborn
 
