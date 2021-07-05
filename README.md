@@ -18,7 +18,6 @@ If you make use of OVANA in any form, please cite the following Paper.
 	publisher = {ACM},
 	author = {Kuehn, Philipp and Bayer, Markus and Wendelborn, Marc and Reuter, Christian},
 	year = {2021},
-	keywords = {Projekt-ATHENE-SecUrban, Projekt-CYWARN, Ranking-CORE-B, Security},
 	pages = {11},
 }
 ```
