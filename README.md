@@ -1,8 +1,33 @@
-# OVANA (TBA)
+# OVANA
 
-This repository will host the code used in the paper _OVANA: An Approach to Analyze and Improve the Information Quality of Vulnerability Databases_ [1].
+This repository hosts the code and datasets used in the paper _OVANA: An Approach to Analyze and Improve the Information Quality of Vulnerability Databases_ [1].
 
 1: Kuehn, P., Bayer, M., Wendelborn, M., & Reuter, C. (2021). OVANA: An Approach to Analyze and Improve the Information Quality of Vulnerability Databases. Proceedings of the 16th International Conference on Availability, Reliability and Security, 11. https://doi.org/10.1145/3465481.3465744
+
+## Quick Start
+
+### Requirements
+
+The project uses Python 3.8+. All requirements can be installed in your virtual environment using
+
+```
+pip install -r requirements.txt
+```
+
+The datasets are contained as zip files in the directory `dataset`. Simply unzip them in this directory to be found by the code in the different python notebooks.
+
+### Preanalysis
+
+The code for the preanalysis is given in `src/preanalysis.ipynb`. It produces all figures given in the paper's preanalysis section.
+
+### CVSS Tagger
+
+The code for the CVSS Tagger (`src/cvss_tagging.ipynb`) is written to work in Google Colab. According packages need to be installed in your Colab environment and the necessary dataset files need to be placed in the given directory in Google Drive (see `src/cvss_tagging.ipynb` for more information).
+
+### Results
+
+The code for the final analysis is given in `src/results.ipynb`. It produces all figures given in the paper's results section.
+
 
 ## Citing
 
